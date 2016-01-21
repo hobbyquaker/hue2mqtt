@@ -102,6 +102,10 @@ Dependencies
 
 History
 -------
+* 0.10 - 2016/01/21 - hobbyquaker
+  - fix retrieval and persistence of bridge username (needed since Hue Java SDK 1.8.1)
+  - added new command line parameters `enableDistinctPublish` (publishes all datapoints) and `disableCombinedPublish`
+
 * 0.9 - 2015/10/01 - owagner
   - truncate float numbers to integer when setting integer-only datapoints. Fixes #6
   - update Philip Hue lib to 1.8.3
